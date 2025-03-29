@@ -35,7 +35,7 @@ Data Handling: Pandas, NumPy
 📌 Usage
 Clone the repository:
 
-git clone https://github.com/your-username/Customer-Support-Ticket-Classification.git
+git clone https://github.com/JustDoItGaurav/Customer-Support-Ticket-Classification.git
 cd Customer-Support-Ticket-Classification
 Install dependencies:
 
