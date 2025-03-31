@@ -1,53 +1,86 @@
-Customer Support Ticket Classification 🏷️📩
-This repository contains an NLP-based classification system for customer support tickets. It employs Machine Learning (ML), Deep Learning (DL), and advanced Language Models (LM) to automatically categorize customer queries, enhancing efficiency in customer service operations.
+# Customer Support Ticket Classification
 
-📂 Project Structure
+## Course: NLP (Semester 6) - Pillai College of Engineering
 
-├── CustomerTicketClassification_ML.ipynb   # ML-based ticket classification  
-├── CustomerTicketClassification_DL.ipynb   # DL-based ticket classification  
-├── CustomerTicketClassification_LM.ipynb   # Language Model-based classification  
-├── NLP_Dataset_MiniProject.csv             # Dataset used for training & evaluation  
-├── README.md                               # Project documentation  
-🚀 Project Overview
-🔹 Goal
-Automate ticket classification by leveraging NLP techniques, reducing manual effort and improving response time.
+### Project Overview
+This project is part of the **Natural Language Processing (NLP) course** for Semester 6 students at **Pillai College of Engineering**. The focus is on **Customer Support Ticket Classification**, where we apply various **Machine Learning (ML), Deep Learning (DL), and Transformer-based Language Models** to automatically categorize user support tickets into predefined intent categories.
 
-🔹 Approach
-Text Preprocessing: Tokenization, lemmatization, and vectorization.
+You can learn more about the college by visiting the **[Pillai College of Engineering](https://www.pce.ac.in/)** official website.
 
-Machine Learning Models: SVM, Random Forest, Naïve Bayes.
+---
 
-Deep Learning Models: LSTMs, Bi-LSTMs for sequential text processing.
+## Acknowledgements
+We would like to express our sincere gratitude to the following individuals:
 
-Language Models: Fine-tuned BERT and GPT for context-aware classification.
+### **Theory Faculty:**
+- **Dhiraj Amin**  
+- **Sharvari Govilkar**  
 
-Performance Evaluation: Accuracy, Precision, Recall, and F1-score.
+### **Lab Faculty:**
+- **Dhiraj Amin**  
+- **Neha Ashok**  
+- **Shubhangi Chavan**  
 
-🛠 Technologies Used
-Programming Language: Python 🐍
+Their guidance and support have been invaluable throughout this project.
 
-Libraries: NLTK, SpaCy, Hugging Face Transformers
+---
 
-ML/DL Frameworks: Scikit-learn, TensorFlow, PyTorch
+## Project Title
+**Customer Support Ticket Classification using Natural Language Processing**
 
-Data Handling: Pandas, NumPy
+## Project Abstract
+Efficient customer support is crucial for enhancing customer satisfaction and optimizing service operations. This project leverages **Natural Language Processing (NLP)** techniques to classify customer support tickets into predefined categories such as **technical issues, billing inquiries, and general support requests**. 
 
-📌 Usage
-Clone the repository:
+By automating the classification process, support tickets are routed to the appropriate teams, reducing response time and improving operational efficiency. The model is trained on real-world customer queries using advanced NLP algorithms, including **text preprocessing, feature extraction, and deep learning techniques**. 
 
-git clone https://github.com/JustDoItGaurav/Customer-Support-Ticket-Classification.git
-cd Customer-Support-Ticket-Classification
-Install dependencies:
+This **intelligent ticket classification system** ensures a streamlined support workflow, leading to improved customer experiences and more effective resource allocation.
 
-pip install -r requirements.txt
-Open and run the notebooks in Jupyter Notebook or Google Colab.
+---
 
-📈 Results & Insights
-ML models provide baseline classification.
+## Algorithms Used
+### **Machine Learning Algorithms:**
+- Logistic Regression  
+- Support Vector Machine (SVM)  
+- Random Forest Classifier  
 
-DL models improve accuracy by capturing sequential dependencies.
+### **Deep Learning Algorithms:**
+- Convolutional Neural Networks (CNN)  
+- Long Short-Term Memory (LSTM)  
+- Bidirectional LSTM (BiLSTM)  
+- Combined CNN-BiLSTM  
 
-Language Models (BERT, GPT) enhance contextual understanding, achieving the best performance.
+### **Language Models:**
+- BERT (Bidirectional Encoder Representations from Transformers)  
+- RoBERTa (Robustly Optimized BERT Pre-training Approach)  
 
-🤝 Contributing
-Feel free to fork this repository and submit pull requests with improvements.
+---
+
+## Comparative Analysis
+The comparative analysis of different models highlights their effectiveness in classifying user intents. The following table summarizes the performance metrics:
+
+| **Model Type**                        | **Accuracy (%)** | **Precision (%)** | **Recall (%)** | **F1-Score (%)** |
+|--------------------------------------|-------------|--------------|------------|--------------|
+| **Logistic Regression**              | 100         |   100        | 100         | 100           |
+| **SVM (Support Vector Machine)**     | 100         | 100         | 100         | 100          |
+| **Random Forest**                     | 100       | 100           | 100         | 100           |
+| **K-Nearest Neighbors**               | 100       | 100          | 100        | 100           |
+| **CNN (Convolutional Neural Networks)** | 95.77          | 96           | 96          | 96            |
+| **CNN-Bidirectional LSTM**            | 11.7         | 10           | 11          | 6            |
+| **LSTM (Long Short-Term Memory)**     | 2.4           | 0            | 4         | 0            |
+| **Bidirectional LSTM-GRU**            | 5        | 4            | 6          | 3            |
+| **BERT**                              | 100          | 100           | 100         | 100           |
+| **RoBERTa**                           | 100          | 100          | 100        | 100          |
+
+---
+
+## Conclusion
+NLP-based classification significantly **improves customer support efficiency** by automating the process of categorizing customer queries. Among various models, **RoBERTa demonstrates the best performance**, followed by **Logistic Regression and Random Forest**, highlighting the effectiveness of deep learning approaches in understanding and processing text. 
+
+Automated ticket classification not only **reduces response time** but also **enhances customer satisfaction** by ensuring faster and more accurate resolutions. 
+
+### **Future Enhancements:**
+- **Real-time ticket classification** with API integration.  
+- **Further model fine-tuning** to enhance classification accuracy.  
+- **Multi-label classification** for handling tickets with multiple issues.  
+
+This project paves the way for **AI-driven customer support automation**, ensuring a seamless and intelligent workflow for support teams. 🚀
