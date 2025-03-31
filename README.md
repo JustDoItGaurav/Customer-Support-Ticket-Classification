@@ -83,4 +83,4 @@ Automated ticket classification not only **reduces response time** but also **en
 - **Further model fine-tuning** to enhance classification accuracy.  
 - **Multi-label classification** for handling tickets with multiple issues.  
 
-This project paves the way for **AI-driven customer support automation**, ensuring a seamless and intelligent workflow for support teams. 🚀
+This project paves the way for **AI-driven customer support automation**, ensuring a seamless and intelligent workflow for support teams. 
